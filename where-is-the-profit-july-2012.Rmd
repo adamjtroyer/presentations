@@ -1,0 +1,30 @@
+---
+title: "Where is the Profit?"
+date: "July 2012"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options
+
+```
+
+class: inverse, center, middle
+
+# Introduction
+
+---
+
+# US P&C Industry Pre-tax Operating ROEs (1967 – 2011)
+
+```{r op-roes, echo=FALSE, out.width='100%', fig.cap = "source: AM Best, Aon Benfield Analytics"}
+knitr::include_graphics('img/where-is-the-profit-1.png')
+```
+
